@@ -1,0 +1,14 @@
+name: GildedBlackstoneFocus
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Highlights Gilded Blackstone only when directly in view.
+commands:
+  gildedblackstone:
+    description: Toggle the direct-line-of-sight Gilded Blackstone highlight.
+    usage: /gildedblackstone
+    aliases: [gbfocus]
+permissions:
+  gildedblackstone.use:
+    description: Allows toggling the Gilded Blackstone focus effect.
+    default: true
